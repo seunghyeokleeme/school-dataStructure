@@ -6,7 +6,7 @@ class ListStack:
         self.__stack.append(x)
     
     def pop(self):
-        self.__stack.pop()
+        return self.__stack.pop()
     
     def top(self):
         if self.isEmpty():
