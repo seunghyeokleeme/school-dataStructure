@@ -1,4 +1,4 @@
-from heap import *
+from heap import Heap
 
 h1 = Heap([1, 11, 9, 2, 3])
 h1.buildHeap()
